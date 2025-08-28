@@ -7,13 +7,10 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('Кейклоак', () => {
     test('Авторизация в кк', async ({page}) => {
-        await page.goto('https://ya.ru');
-        // await page.fill('#username', process.env.USERNAME!);
-        // await page.fill('#password', process.env.PASSWORD!);
-        // await page.click('#kc-login');
-        // await page.waitForTimeout(5000);
-
-
+        await page.click('#working_with_eron_txt')
+        await page.click('#tab_director_cn');
+        await page.click('text=Все объекты');
+        await page.waitForTimeout(3000);
     });
 
 });
