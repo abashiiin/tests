@@ -1,5 +1,6 @@
 import { defineConfig } from '@playwright/test';
-
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 export default defineConfig({
     testDir: './tests', // Папка с тестами
@@ -8,8 +9,9 @@ export default defineConfig({
     reporter: [['html', { open: 'never' }]],
 
 
+
     use: {
-        headless: true, // Запуск в headless-режиме (фоновом, без отображения окна.
+        headless: false, // Запуск в headless-режиме (фоновом, без отображения окна.
         // Можно отобразить - false, тогда откроет браузери ты все действия увидишь сам)
         baseURL: 'http://google.ru', // Базовый адрес сайта
         viewport: { width: 1280, height: 720 },

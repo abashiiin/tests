@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="">
+    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/tests/eron.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright-report/data/3b91e873a76744f3ec78668f00705122aca38603.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright-report/data/6635d75fd8df6fae86f556ec0c1ed708c9ea0bde.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright-report/data/a528c099e04de1e8cee0c2d4346bcc9137367ad9.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright-report/data/bf0a59d70287673756a5ff41943537c379e84e27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/playwright-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/.last-run.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-selenium-Chromium/error-context.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-selenium-Chromium/test-failed-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-не-playwright-Chromium/error-context.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-не-playwright-Chromium/test-failed-1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +64,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Playwright.check env vars.executor": "Run",
     "Playwright.test (1).executor": "Run",
     "Playwright.test.executor": "Run",
     "Playwright.Авторизация.executor": "Run",
     "Playwright.Запросы в yandex.executor": "Run",
     "Playwright.Запросы в yandex.Запрос selenium.executor": "Run",
     "Playwright.Запросы в яндекс.executor": "Run",
+    "Playwright.Кейклоак.executor": "Run",
     "Playwright.Открыть вкладку Начальник СРСМ.executor": "Run",
     "Playwright.Поиск Playwright в Google.executor": "Run",
     "Playwright.Тест на проверку перехода по ссылке при запросе \"Playwright\".executor": "Run",
@@ -73,21 +90,19 @@
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Playwright.Запросы в яндекс">
-    <configuration name="Запросы в yandex" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/tests/test.spec.ts" />
-      <test-names>
-        <test-name value="Запросы в yandex" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Playwright.Кейклоак">
     <configuration name="Запросы в yandex.Запрос selenium" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -125,32 +140,44 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Авторизация" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+    <configuration name="Кейклоак" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/tests/test.spec.ts" />
+      <test-file value="$PROJECT_DIR$/tests/eron.spec.ts" />
       <test-names>
-        <test-name value="Авторизация" />
+        <test-name value="Кейклоак" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check env vars" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/eron.spec.ts" />
+      <test-names>
+        <test-name value="check env vars" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Playwright.Авторизация" />
-      <item itemvalue="Playwright.Запросы в yandex" />
+      <item itemvalue="Playwright.check env vars" />
       <item itemvalue="Playwright.Запросы в yandex.Запрос selenium" />
       <item itemvalue="Playwright.Запросы в яндекс" />
+      <item itemvalue="Playwright.Кейклоак" />
       <item itemvalue="Playwright.Поиск Playwright в Google" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Playwright.Кейклоак" />
+        <item itemvalue="Playwright.check env vars" />
         <item itemvalue="Playwright.Запросы в яндекс" />
         <item itemvalue="Playwright.Поиск Playwright в Google" />
         <item itemvalue="Playwright.Запросы в yandex.Запрос selenium" />
-        <item itemvalue="Playwright.Запросы в yandex" />
-        <item itemvalue="Playwright.Авторизация" />
       </list>
     </recent_temporary>
   </component>
@@ -173,8 +200,25 @@
       <workItem from="1755612161600" duration="233000" />
       <workItem from="1755780863072" duration="1000" />
       <workItem from="1756377393686" duration="32000" />
-      <workItem from="1756377442986" duration="11709000" />
+      <workItem from="1756377442986" duration="15277000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1756390556659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756390556659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1756390570781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756390570781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,5 +246,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
