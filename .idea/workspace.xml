@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/tests/eron.spec.ts" afterDir="false" />
+    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/tests/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright-report/data/3b91e873a76744f3ec78668f00705122aca38603.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright-report/data/6635d75fd8df6fae86f556ec0c1ed708c9ea0bde.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright-report/data/a528c099e04de1e8cee0c2d4346bcc9137367ad9.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright-report/data/bf0a59d70287673756a5ff41943537c379e84e27.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/playwright-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/playwright-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/.last-run.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-selenium-Chromium/error-context.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-selenium-Chromium/test-failed-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-не-playwright-Chromium/error-context.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/111-Запросы-в-яндекс-Запрос-не-playwright-Chromium/test-failed-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/auth.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/eron.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/eron.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +190,7 @@
       <workItem from="1755612161600" duration="233000" />
       <workItem from="1755780863072" duration="1000" />
       <workItem from="1756377393686" duration="32000" />
-      <workItem from="1756377442986" duration="15277000" />
+      <workItem from="1756377442986" duration="17158000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -218,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756390570781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1756394282958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756394282958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
