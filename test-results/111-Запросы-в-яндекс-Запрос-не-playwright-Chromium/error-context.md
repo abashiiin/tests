@@ -1,0 +1,37 @@
+# Page snapshot
+
+```yaml
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - link "Yandex" [ref=e7] [cursor=pointer]:
+      - /url: https://www.yandex.com
+    - generic [ref=e8]:
+      - heading "Please confirm that you and not a robot are sending requests" [level=1] [ref=e10]
+      - generic [ref=e12]:
+        - text: We're sorry, but it looks like requests sent from your device are automated.
+        - link "Why might this happen?" [ref=e13] [cursor=pointer]:
+          - /url: https://yandex.com/support/smart-captcha/problems.html?form-unique_key=7188827496694029728&form-fb-hint=2.1
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - checkbox "I'm not a robot" [ref=e18] [cursor=pointer]
+          - generic [ref=e20]:
+            - generic [ref=e22]: I'm not a robot
+            - generic [ref=e24]: Press to continue
+        - generic [ref=e25]:
+          - button "Show links" [ref=e26]:
+            - img [ref=e27]
+          - link "SmartCaptcha by Yandex Cloud" [ref=e30] [cursor=pointer]:
+            - /url: https://yandex.cloud/en/services/smartcaptcha?utm_source=captcha&utm_medium=chbx&utm_campaign=security
+    - generic [ref=e31]:
+      - text: If you have any problems, please use the
+      - link "feedback form" [ref=e32] [cursor=pointer]:
+        - /url: https://yandex.com/support/smart-captcha/problems.html?form-unique_key=7188827496694029728&form-fb-hint=2.1
+    - generic [ref=e34]:
+      - text: If you need to automatically set Search queries, use
+      - link "Yandex Search API v2" [ref=e35] [cursor=pointer]:
+        - /url: https://yandex.cloud/en/docs/search-api/quickstart/v2
+    - generic [ref=e37]:
+      - generic [ref=e38]: "7188827496694029728"
+      - text: ":"
+      - generic [ref=e39]: "1756389319"
+```
