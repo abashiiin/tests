@@ -22,8 +22,8 @@ test.describe('ЕРОН', () => {
         const page1Promise = page.waitForEvent('popup');
         await page.click('text=В новом окне')
         const page1 = await page1Promise;
-        
 
+        await expect(page1).toHaveURL(new RegExp(`${selectedId}`));
 
         // const expectedId = 'api2';
         // expect(page1.url()).toContain(expectedId);
