@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="update 20 august">
+    <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="update 02 sep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/eron.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/eron.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756472176703</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 02 sep">
+      <option name="closed" value="true" />
+      <created>1756836199262</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756836199262</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +302,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="update" />
     <MESSAGE value="update 20 august" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20 august" />
+    <MESSAGE value="update 02 sep" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 02 sep" />
   </component>
 </project>

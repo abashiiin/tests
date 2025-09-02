@@ -19,8 +19,9 @@ test.describe('ЕРОН', () => {
 
         const selectedId = await clickNSRSM(page);
         await page.waitForTimeout(1000);
-        const page1Promise = page.waitForEvent('popup');
         await page.locator('text=В новом окне').click();
+        const page1Promise = page.waitForEvent('popup');
+
         const page1 = await page1Promise;
 
         expect(page1.url()).toContain(String(selectedId));
