@@ -1,6 +1,6 @@
 import {expect, Page, test} from '@playwright/test';
 
-export async function click(page: Page): Promise<string> {
+export async function clickNSRSM(page: Page): Promise<string> {
     const cells = page.locator('tr[role="row"] td[aria-colindex="2"]:visible');
     const count = await cells.count();
     if (count === 0) throw new Error('Нет объектов');

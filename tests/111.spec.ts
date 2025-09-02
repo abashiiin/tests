@@ -9,8 +9,8 @@ test.describe('Запросы в яндекс', () => {
         await page.getByRole('combobox', {name: 'Запрос'}).click();
         await page.getByRole('combobox', {name: 'Запрос'}).fill(request.request);
         await page.getByRole('combobox', {name: 'Запрос'}).press('Enter');
-        const page1Promise = page.waitForEvent('popup');
         await page.getByRole('link', {name: 'Fast and reliable end-to-end'}).click();
+        const page1Promise = page.waitForEvent('popup');
         const page1 = await page1Promise;
         await expect(page1.getByRole('link', {name: 'Playwright logo Playwright'})).toBeVisible();
     });
@@ -18,8 +18,8 @@ test.describe('Запросы в яндекс', () => {
         await page.getByRole('combobox', { name: 'Запрос' }).click();
         await page.getByRole('combobox', { name: 'Запрос' }).fill(request.request2);
         await page.getByRole('combobox', { name: 'Запрос' }).press('Enter');
-        const page1Promise = page.waitForEvent('popup');
         await page.getByRole('link', { name: 'selenium.dev' }).click();
+        const page1Promise = page.waitForEvent('popup');
         const page1 = await page1Promise;
         await expect(page1.getByRole('link', { name: 'Selenium logo green' })).toBeVisible();
 

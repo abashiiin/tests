@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { auth } from './utils/auth';
-import { click } from './utils/randomClickObject'
+import { clickNSRSM } from './utils/randomClickObject-nsrsm';
+import { clickNORR } from './utils/randomClickObject-norr'; // Клик по объекту для норра (доделать)
 
 test.beforeEach(async ({ page }) => {
     await auth(page);
@@ -15,21 +16,16 @@ test.describe('ЕРОН', () => {
         await page.waitForTimeout(1000);
         await page.click('text=Все объекты');
         await page.waitForTimeout(1000);
-        // await click(page);
-        const selectedId = await click(page);
-        console.log('Объект:', selectedId)
+
+        const selectedId = await clickNSRSM(page);
         await page.waitForTimeout(1000);
         const page1Promise = page.waitForEvent('popup');
-        await page.click('text=В новом окне')
+        await page.locator('text=В новом окне').click();
         const page1 = await page1Promise;
 
+        const url = page1.url();
+
         await expect(page1).toHaveURL(new RegExp(`${selectedId}`));
-
-        // const expectedId = 'api2';
-        // expect(page1.url()).toContain(expectedId);
-
-
-
     });
 
 });
