@@ -23,9 +23,8 @@ test.describe('ЕРОН', () => {
         await page.locator('text=В новом окне').click();
         const page1 = await page1Promise;
 
-        const url = page1.url();
+        expect(page1.url()).toContain(String(selectedId));
 
-        await expect(page1).toHaveURL(new RegExp(`${selectedId}`));
     });
 
 });
