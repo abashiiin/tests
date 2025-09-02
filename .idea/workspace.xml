@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="974073ab-1c8b-4140-8646-f0f68f287e48" name="Changes" comment="update 02 sep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/playwright-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/eron.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/eron.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils/randomClickObject-nsrsm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/randomClickObject-nsrsm.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,9 @@
     &quot;accountId&quot;: &quot;cee904c0-5a46-4e58-8453-6858139f9b22&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -280,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756836890657</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update 02 sep">
+      <option name="closed" value="true" />
+      <created>1756838101519</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756838101519</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update 02 sep">
+      <option name="closed" value="true" />
+      <created>1756838228964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756838228964</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
