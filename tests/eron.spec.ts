@@ -25,6 +25,7 @@ test.describe('ЕРОН', () => {
         const page1 = await page1Promise;
 
         expect(page1.url()).toContain(String(selectedId));
+        console.log('Открылась страница с номером объекта:', selectedId)
 
     });
 
