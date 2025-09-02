@@ -1,4 +1,4 @@
-import {expect, Page, test} from '@playwright/test';
+import { Page } from '@playwright/test';
 
 export async function clickNSRSM(page: Page): Promise<number> {
     const cells = page.locator('tr[role="row"] td[aria-colindex="2"]:visible');
