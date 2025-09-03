@@ -4,6 +4,7 @@ import { request } from './request';
 test.beforeEach(async({ page }) => {
     await page.goto('https://ya.ru');
 });
+
 test.describe('Запросы в яндекс', () => {
     test('Запрос playwright', async ({page}) => {
         await page.getByRole('combobox', {name: 'Запрос'}).fill(request.request);
